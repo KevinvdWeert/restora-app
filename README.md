@@ -1,4 +1,4 @@
-# Restora App
+# TableSync App
 
 A comprehensive restaurant management system built with Laravel, designed to handle reservations, menu management, orders, and customer reviews.
 
@@ -121,7 +121,7 @@ npm run build
 ## Project Structure
 
 ```
-restora-app/
+TableSync/
 ├── app/
 │   ├── Http/Controllers/    # Application controllers
 │   ├── Models/              # Eloquent models
