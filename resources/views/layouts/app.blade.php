@@ -17,15 +17,15 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+    <body class="font-sans antialiased" style="background: #0a0a0a;">
+        <div class="min-h-screen" style="background: #0a0a0a;">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
             @isset($header)
-                <header class="bg-white shadow">
+                <header style="background: #0a0a0a; border-bottom: 1px solid #222;">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
+                        <h2 style="font-weight: 600; font-size: 1.25rem; color: white; line-height: 1.25;">{{ $header }}</h2>
                     </div>
                 </header>
             @endisset
